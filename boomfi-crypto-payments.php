@@ -5,7 +5,7 @@
  * Author: BoomFi LLC FZ
  * Author URI: https://boomfi.xyz
  * Description: The BoomFi Crypto Payments Plugin enables e-commerce stores to effortlessly accept cryptocurrency payments through WooCommerce.
- * Version: 1.2.1
+ * Version: 1.5.0
  * License: GPL-v3
  * text-domain: boomfi-crypto-payments
  * Requires Plugins: woocommerce
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
     exit('No direct script access allowed');
 }
 
-define('BOOMFI_CRYPTO_PAYMENTS_PLUGIN_VERSION', '1.2.1');
+define('BOOMFI_CRYPTO_PAYMENTS_PLUGIN_VERSION', '1.5.0');
 define('BOOMFI_CRYPTO_PAYMENTS_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('BOOMFI_CRYPTO_PAYMENTS_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('BOOMFI_CRYPTO_PAYMENTS_PLUGIN_BASENAME', plugin_basename(__FILE__));

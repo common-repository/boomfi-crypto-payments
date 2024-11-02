@@ -190,8 +190,10 @@ class BoomFi_Crypto_Payments_Payment_Gateway extends WC_Payment_Gateway
         $currency = $order->get_currency();
         $amount = $order->get_total();
         $reference = wp_generate_uuid4();
+        $customer_name = $order->get_billing_first_name(). ' '.$order->get_billing_last_name();
 
         $data = [
+            'name' => $customer_name,
             'email' => $email,
             'amount' => $amount,
             'currency' => $currency,

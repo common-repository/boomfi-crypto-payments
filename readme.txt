@@ -3,7 +3,7 @@ Contributors: BoomFi LLC FZ
 Tags: payment, crypto, stablecoin, ecommerce, woocommerce
 Requires at least: 5.4
 Tested up to: 6.6
-Stable tag: 1.2.1
+Stable tag: 1.5.0
 Requires PHP: 7.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -59,6 +59,15 @@ BoomFi Group is a licensed Virtual Asset Service Provider licensed in Poland.
 4. An account at BoomFi, signup at ([Test](https://test.boomfi.xyz/signup), [Live](https://app.boomfi.xyz/signup)) and complete KYB process
 
 == Changelog ==
+
+= 1.5.0 =
+* Add test mode
+
+= 1.4.0 =
+* Remove test mode
+
+= 1.3.0 =
+* Pass customer name while generating payment link
 
 = 1.2.1 =
 * Update Description
